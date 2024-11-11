@@ -1,0 +1,14 @@
+[package]
+name = "time-is-money"
+version = "0.1.0"
+edition = "2021"
+description = "Tim is a timer that tries your patience."
+
+[[bin]]
+name = "tim"
+path = "src/main.rs"
+
+[dependencies]
+actually_beep = "0.1.0"
+rand = "0.8.5"
+crossterm= "0.28.1"
